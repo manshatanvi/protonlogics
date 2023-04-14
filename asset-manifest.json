@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/protonlogics/static/js/main.c0d13929.chunk.js",
+    "main.js.map": "/protonlogics/static/js/main.c0d13929.chunk.js.map",
+    "runtime-main.js": "/protonlogics/static/js/runtime-main.61efc2d2.js",
+    "runtime-main.js.map": "/protonlogics/static/js/runtime-main.61efc2d2.js.map",
+    "static/css/2.dd9d369a.chunk.css": "/protonlogics/static/css/2.dd9d369a.chunk.css",
+    "static/js/2.c26586cb.chunk.js": "/protonlogics/static/js/2.c26586cb.chunk.js",
+    "static/js/2.c26586cb.chunk.js.map": "/protonlogics/static/js/2.c26586cb.chunk.js.map",
+    "index.html": "/protonlogics/index.html",
+    "static/css/2.dd9d369a.chunk.css.map": "/protonlogics/static/css/2.dd9d369a.chunk.css.map",
+    "static/js/2.c26586cb.chunk.js.LICENSE.txt": "/protonlogics/static/js/2.c26586cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61efc2d2.js",
+    "static/css/2.dd9d369a.chunk.css",
+    "static/js/2.c26586cb.chunk.js",
+    "static/js/main.c0d13929.chunk.js"
+  ]
+}
