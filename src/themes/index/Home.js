@@ -14,7 +14,7 @@ import TestimonialTwo from '../../components/testimonial';
 const Home = () => {
   return (
     <Layout>
-      <PageMeta title='Nixet - Where Quality Matters' />
+      <PageMeta title='Protonlogics - Where Quality Matters' />
       <Navbar />
       <Hero />
       <FeatureTwo />

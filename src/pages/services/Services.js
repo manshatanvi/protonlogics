@@ -9,7 +9,7 @@ import Layout from '../../layout/Layout';
 const Services = () => {
   return (
     <Layout>
-      <PageMeta title='Nixet - Services' />
+      <PageMeta title='Protonlogics - Services' />
       <Navbar classOption='navbar-light' />
       <PageHeader
         title='We are Development Experts'

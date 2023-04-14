@@ -53,7 +53,7 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
                 <SectionTitle
                   subtitle="Testimonial"
                   title="Don't just take our word for it"
-                  description="Nixet has had the great pleasure of working with clients around the world. Here are some of the kind words our clients had to say about us."
+                  description="Protonlogics has had the great pleasure of working with clients around the world. Here are some of the kind words our clients had to say about us."
                   darkBg
                   centerAlign
                 />
@@ -61,7 +61,7 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
                 <SectionTitle
                   subtitle="Testimonial"
                   title="Don't just take our word for it"
-                  description="Nixet has had the great pleasure of working with clients around the world. Here are some of the kind word our clients had to say about us."
+                  description="Protonlogics has had the great pleasure of working with clients around the world. Here are some of the kind word our clients had to say about us."
                   centerAlign
                 />
               )}

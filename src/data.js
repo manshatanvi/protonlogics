@@ -53,7 +53,7 @@ const TestimonialData = [
     authorTitle: 'Founder and CEO at Sparrow Marketing',
     quoteTitle: '',
     authorQuote:
-      'Shubham and the team at Nixet have honestly been the best engineering firm we have worked with for software development needs at Sparrow. Their quality for price ratio is unmatched.',
+      'Shubham and the team at Protonlogics have honestly been the best engineering firm we have worked with for software development needs at Sparrow. Their quality for price ratio is unmatched.',
   },
 ];
 

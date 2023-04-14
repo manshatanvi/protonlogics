@@ -9,7 +9,7 @@ import Layout from '../layout/Layout';
 const Contact = () => {
   return (
     <Layout>
-      <PageMeta title="Nixet - Contact Us" />
+      <PageMeta title="Protonlogics - Contact Us" />
       <Navbar />
       <PageHeader
         title="Contact Us"
