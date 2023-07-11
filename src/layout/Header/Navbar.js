@@ -20,6 +20,8 @@ const Navbar = ({ navDark }) => {
     setScroll(window.scrollY);
   };
 
+  const host = process.env.PUBLIC_URL;
+
   return (
     <>
       <header
@@ -32,7 +34,7 @@ const Navbar = ({ navDark }) => {
         >
           <div className="container d-flex align-items-center justify-content-lg-between position-relative">
             <Link
-              to={"/home"}
+              to={`${host}/home`}
               className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none"
             >
               <Image
@@ -71,22 +73,22 @@ const Navbar = ({ navDark }) => {
             <div className="collapse navbar-collapse justify-content-end">
               <ul className="nav col-12 col-md-auto justify-content-center main-menu">
                 <li className="nav-item dropdown">
-                  <Link to={"/home"} className="nav-link">
+                  <Link to={`${host}/home`} className="nav-link">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/services"} className="nav-link">
+                  <Link to={`${host}/services`} className="nav-link">
                     Services
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/about-us"} className="nav-link">
+                  <Link to={`${host}/about-us`} className="nav-link">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/contact-us"} className="nav-link">
+                  <Link to={`${host}/contact-us`} className="nav-link">
                     Contact Us
                   </Link>
                 </li>
