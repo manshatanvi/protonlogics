@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/protonlogics/static/js/main.4b59bf29.chunk.js",
-    "main.js.map": "/protonlogics/static/js/main.4b59bf29.chunk.js.map",
+    "main.js": "/protonlogics/static/js/main.749286b0.chunk.js",
+    "main.js.map": "/protonlogics/static/js/main.749286b0.chunk.js.map",
     "runtime-main.js": "/protonlogics/static/js/runtime-main.2c6b4e08.js",
     "runtime-main.js.map": "/protonlogics/static/js/runtime-main.2c6b4e08.js.map",
     "static/css/2.dd9d369a.chunk.css": "/protonlogics/static/css/2.dd9d369a.chunk.css",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2c6b4e08.js",
     "static/css/2.dd9d369a.chunk.css",
     "static/js/2.356523b2.chunk.js",
-    "static/js/main.4b59bf29.chunk.js"
+    "static/js/main.749286b0.chunk.js"
   ]
 }
