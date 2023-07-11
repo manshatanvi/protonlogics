@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from '../../components/image/image';
 
 const FooterOne = ({ footerLight, style, footerGradient }) => {
   return (
@@ -16,12 +17,12 @@ const FooterOne = ({ footerLight, style, footerGradient }) => {
               <div className="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                 <div className="footer-single-col">
                   <div className="footer-single-col mb-4">
-                    <img
+                    <Image
                       src="assets/img/logoText-Light.svg"
                       alt="logo"
                       className="img-fluid logo-white"
                     />
-                    <img
+                    <Image
                       src="assets/img/logoText-Dark.svg"
                       alt="logo"
                       className="img-fluid logo-color"

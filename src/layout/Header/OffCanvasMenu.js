@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from '../../components/image/image';
 
 const OffCanvasMenu = () => {
   return (
@@ -11,11 +12,11 @@ const OffCanvasMenu = () => {
       >
         <div className='offcanvas-header d-flex align-items-center mt-4'>
           <Link
-            to='/'
+            to='/home'
             className='d-flex align-items-center mb-md-0 text-decoration-none'
           >
-            <img
-              src='assets/img/logoText-Dark.svg'
+            <Image
+              src="assets/img/logoText-Dark.svg"
               alt='logo'
               className='img-fluid ps-2'
             />

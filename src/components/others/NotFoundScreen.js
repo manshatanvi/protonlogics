@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from '../image/image';
 
 const NotFoundScreen = () => {
   return (
@@ -32,42 +33,42 @@ const NotFoundScreen = () => {
               <div className='hero-img position-relative circle-shape-images'>
                 <ul className='position-absolute animate-element parallax-element circle-shape-list'>
                   <li className='layer' data-depth='0.03'>
-                    <img
+                    <Image
                       src='assets/img/shape/circle-1.svg'
                       alt='shape'
                       className='circle-shape-item type-0 hero-1'
                     />
                   </li>
                   <li className='layer' data-depth='0.02'>
-                    <img
+                    <Image
                       src='assets/img/shape/circle-1.svg'
                       alt='shape'
                       className='circle-shape-item type-1 hero-1'
                     />
                   </li>
                   <li className='layer' data-depth='0.04'>
-                    <img
+                    <Image
                       src='assets/img/shape/circle-1.svg'
                       alt='shape'
                       className='circle-shape-item type-2 hero-1'
                     />
                   </li>
                   <li className='layer' data-depth='0.04'>
-                    <img
+                    <Image
                       src='assets/img/shape/circle-1.svg'
                       alt='shape'
                       className='circle-shape-item type-3 hero-1'
                     />
                   </li>
                   <li className='layer' data-depth='0.03'>
-                    <img
+                    <Image
                       src='assets/img/shape/circle-1.svg'
                       alt='shape'
                       className='circle-shape-item type-4 hero-1'
                     />
                   </li>
                   <li className='layer' data-depth='0.03'>
-                    <img
+                    <Image
                       src='assets/img/shape/circle-1.svg'
                       alt='shape'
                       className='circle-shape-item type-5 hero-1'
@@ -75,7 +76,7 @@ const NotFoundScreen = () => {
                   </li>
                 </ul>
 
-                <img
+                <Image
                   src='assets/img/hero-1.png'
                   alt='hero img'
                   className='img-fluid position-relative z-5'

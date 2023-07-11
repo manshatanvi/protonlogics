@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper/core';
 import { TestimonialData } from '../../data';
 import SectionTitle from '../common/SectionTitle';
+import { Image } from '../image/image';
 
 SwiperCore.use([Navigation]);
 
@@ -80,14 +81,14 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
                             : 'border border-2'
                         }   `}
                       >
-                        <img
+                        <Image
                           src="assets/img/testimonial/quotes-dot.svg"
                           alt="quotes"
                           width="100"
                           className="img-fluid position-absolute left-0 top-0 z--1 p-3"
                         />
                         <div className="d-flex mb-32 align-items-center">
-                          <img
+                          <Image
                             src={data.authorImg}
                             className="img-fluid me-3 rounded"
                             width="60"

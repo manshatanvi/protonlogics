@@ -1,4 +1,5 @@
 import React from 'react';
+import { Image } from '../image/image';
 
 const IntegrationOne = () => {
   return (
@@ -15,7 +16,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/1.png'
                     alt='integration'
                     className='img-fluid'
@@ -28,7 +29,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/2.png'
                     alt='integration'
                     className='img-fluid'
@@ -41,7 +42,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/3.png'
                     alt='integration'
                     className='img-fluid'
@@ -55,7 +56,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/4.png'
                     alt='integration'
                     className='img-fluid'
@@ -68,7 +69,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/5.png'
                     alt='integration'
                     className='img-fluid'
@@ -81,7 +82,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/6.png'
                     alt='integration'
                     className='img-fluid'
@@ -94,7 +95,7 @@ const IntegrationOne = () => {
                   data-bs-placement='top'
                   title='Your Brand Name'
                 >
-                  <img
+                  <Image
                     src='assets/img/integrations/7.png'
                     alt='integration'
                     className='img-fluid'
@@ -120,7 +121,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/8.png'
                       alt='integration'
                       className='img-fluid'
@@ -132,7 +133,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/9.png'
                       alt='integration'
                       className='img-fluid'
@@ -144,7 +145,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/10.png'
                       alt='integration'
                       className='img-fluid'
@@ -157,7 +158,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/11.png'
                       alt='integration'
                       className='img-fluid'
@@ -169,7 +170,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/12.png'
                       alt='integration'
                       className='img-fluid'
@@ -181,7 +182,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/13.png'
                       alt='integration'
                       className='img-fluid'
@@ -193,7 +194,7 @@ const IntegrationOne = () => {
                     data-bs-placement='top'
                     title='Your Brand Name'
                   >
-                    <img
+                    <Image
                       src='assets/img/integrations/14.png'
                       alt='integration'
                       className='img-fluid'

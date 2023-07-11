@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from '../image/image';
 
 const PageHeader = ({ title, desc, integration, blogtags }) => {
   return (
@@ -18,7 +19,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
                 <div className='company-info-wrap align-items-center'>
                   <div className='company-logo p-4 bg-white shadow rounded-custom me-4 mt-2'>
                     <div className='logo justify-content-center'>
-                      <img
+                      <Image
                         src='assets/img/integations/2.png'
                         alt='company logo'
                         className='img-fluid'

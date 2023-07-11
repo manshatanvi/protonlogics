@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from '../image/image';
 
 const ComingSoonScreen = () => {
   return (
@@ -17,7 +18,7 @@ const ComingSoonScreen = () => {
             <div className='col-lg-5 col-12'>
               <div className='coming-soon-content-wrap position-relative z-2'>
                 <Link to='/' className='mb-5 d-block'>
-                  <img
+                  <Image
                     src='assets/img/logoText-Light.svg'
                     alt='logo'
                     className='img-fluid'

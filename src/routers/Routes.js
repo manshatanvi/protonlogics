@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Home from '../themes/index/Home';
 import Services from '../pages/services/Services';
 import NotFoundScreen from '../components/others/NotFoundScreen';
@@ -14,11 +14,14 @@ class Routes extends Component {
         <Router>
           <ScrollToTop />
           <Switch>
-            <Route exact path='/' component={Home} />
+            {/* <Route exact path='/' component={Home} /> */}
+            <Route exact path="/" render={() => <Redirect to="/home" />} />
+            <Route exact path='/home' component={Home} />
             <Route exact path='/about-us' component={About} />
             <Route exact path='/services' component={Services} />
-            <Route exact path='/contact-us' component={Contact} />
-            <Route component={NotFoundScreen} />
+            <Route exact path='/contact-us' component={Contact} />                        
+            <Route path='/*' component={NotFoundScreen} />
+            {/* <Route component={NotFoundScreen} /> */}
           </Switch>
         </Router>
       </>

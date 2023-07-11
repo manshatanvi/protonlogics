@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroTitle from '../../components/common/HeroTitle';
+import { Image } from '../../components/image/image';
 
 const HeroTwo = () => {
   return (
@@ -29,20 +30,20 @@ const HeroTwo = () => {
               >
                 <ul className="position-absolute animate-element parallax-element widget-img-wrap z-2">
                   <li className="layer" data-depth="0.04">
-                    <img
+                    <Image
                       src="assets/img/screen/widget-3.svg"
                       alt="widget-img"
                       className="img-fluid widget-img-1 position-absolute shadow-lg rounded-custom"/>
                   </li>
                   <li className="layer" data-depth="0.02">
-                    <img
+                    <Image
                       src="assets/img/screen/widget-4.svg"
                       alt="widget-img"
                       className="img-fluid widget-img-3 position-absolute shadow-lg rounded-custom"
                     />
                   </li>
                 </ul>
-                <img
+                <Image
                   src="assets/img/screen/dashboard-light.svg"
                   alt="dashboard"
                   className="img-fluid position-relative rounded-custom box-shadow mt-5"

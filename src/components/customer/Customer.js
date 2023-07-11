@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "../image/image";
 
 const Customer = ({ gray }) => {
   return (
@@ -10,7 +11,7 @@ const Customer = ({ gray }) => {
               <div className="col-lg-8 col-12">
                 <ul className="customer-logos-grid text-center list-unstyled mb-0">
                   <li>
-                    <img
+                    <Image
                       src="assets/img/clients/client-logo-1.svg"
                       width="150"
                       alt="clients logo"
@@ -20,7 +21,7 @@ const Customer = ({ gray }) => {
                     />
                   </li>
                   <li>
-                    <img
+                    <Image
                       src="assets/img/clients/client-logo-2.svg"
                       width="150"
                       alt="clients logo"
@@ -30,7 +31,7 @@ const Customer = ({ gray }) => {
                     />
                   </li>
                   <li>
-                    <img
+                    <Image
                       src="assets/img/clients/client-logo-3.svg"
                       width="150"
                       alt="clients logo"
@@ -40,7 +41,7 @@ const Customer = ({ gray }) => {
                     />
                   </li>
                   <li>
-                    <img
+                    <Image
                       src="assets/img/clients/satschel-logo.svg"
                       width="150"
                       alt="clients logo"
@@ -73,7 +74,7 @@ const Customer = ({ gray }) => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img
+                      <Image
                         src="assets/img/clients/sparrow-logo.svg"
                         width="150"
                         alt="clients logo"
@@ -90,7 +91,7 @@ const Customer = ({ gray }) => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img
+                      <Image
                         src="assets/img/clients/nich-logo.svg"
                         width="150"
                         alt="clients logo"
@@ -101,7 +102,7 @@ const Customer = ({ gray }) => {
                     </a>
                   </li>
                   <li>
-                    <img
+                    <Image
                       src="assets/img/clients/proclinic-logo.svg"
                       width="150"
                       alt="clients logo"
@@ -111,7 +112,7 @@ const Customer = ({ gray }) => {
                     />
                   </li>
                   <li>
-                    <img
+                    <Image
                       src="assets/img/clients/satschel-logo.svg"
                       width="150"
                       alt="clients logo"

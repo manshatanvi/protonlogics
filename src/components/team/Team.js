@@ -1,5 +1,6 @@
 import React from "react";
 import { Employees } from "../../constants";
+import { Image } from "../image/image";
 
 const Team = () => {
   return (
@@ -22,7 +23,7 @@ const Team = () => {
               <div className="col-lg-3 col-md-6 team-single-contain" key={employee.employeeId}>
                 <div className="team-single-wrap mb-5">
                   <div className="team-img rounded-custom">
-                    <img
+                    <Image
                       src={employee.img}
                       alt={employee.name}
                       className="img-fluid position-relative"
