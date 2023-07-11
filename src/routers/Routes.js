@@ -20,18 +20,21 @@ class Routes extends Component {
         <Router>
           <ScrollToTop />
           <Switch>
-            {/* <Route exact path='/' component={Home} /> */}
             <Route
               exact
-              path="/"
+              path={"/"}
               render={() => <Redirect to={`${host}/home`} />}
             />
+            <Route
+              exact
+              path={`${host}`}
+              render={() => <Redirect to={`${host}/home`} />}
+            />            
             <Route exact path={`${host}/home`} component={Home} />
             <Route exact path={`${host}/about-us`} component={About} />
             <Route exact path={`${host}/services`} component={Services} />
             <Route exact path={`${host}/contact-us`} component={Contact} />
             <Route path={`${host}/*`} component={NotFoundScreen} />
-            {/* <Route component={NotFoundScreen} /> */}
           </Switch>
         </Router>
       </>
